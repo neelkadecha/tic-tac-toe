@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Montserrat", serif;
+}
+
+body {
+    background-color: #003049;
+    text-align: center;
+}
+
+h1{
+    margin-top: 50px;
+    color: #FDF0D5;
+    font-size: 7vmin;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #FDF0D5;
+    border: none;
+    border-radius: 1vmin;
+    font-size: 8vmin;
+    font-weight: 700;
+    color: #003049;
+}
+
+.reset-btn {
+    width: 20vmin;
+    height: 8vmin;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #274457;
+    color: #FDF0D5;
+    border: none;
+    border-radius: 1vmin;
+}
+
+.newGame-btn {
+    width: 20vmin;
+    height: 5vmin;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #274457;
+    color: #FDF0D5;
+    border: none;
+    border-radius: 1vmin;
+}
+
+.winner-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #FDF0D5;
+    margin-bottom: 30px;
+}
+
+.hide {
+    display: none;
+}
